@@ -1,0 +1,15 @@
+# Исключение pycache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Исключение временных файлов IDE
+.vscode/
+.idea/
+*.swp
+
+# Исключение файлов конфигурации (если не хотите коммитить)
+config.py
+bot.py
+*openai_service.py
